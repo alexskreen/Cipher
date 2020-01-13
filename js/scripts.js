@@ -1,4 +1,12 @@
 $(document).ready(function() {
+    $("img.cat").click(function(){
+        alert(sentence)
+    
+    });
+    $("img.dog").click(function(){
+        alert(sum5)
+    
+    });
     var sentence = prompt("Enter a sentence");
     var firstCharacter = sentence.charAt(0);
     var lastCharacter = sentence[sentence.length-1];
