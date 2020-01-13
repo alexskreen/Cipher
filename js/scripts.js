@@ -28,4 +28,6 @@ $(document).ready(function() {
     }
     alert(reverseString(sum5))
 
+    $("#readout").html(reverseString(sum5))
+
 });
